@@ -7,3 +7,6 @@ body{
     background-color: black;
     margin: 1em; 
 }
+
+::-moz-selection { background:grey; }
+::selection { background: grey; }
