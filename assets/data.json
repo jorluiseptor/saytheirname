@@ -1,6 +1,9 @@
 [
     {
-        "name": "George Floyd"
+        "name": "George Floyd",
+        "age": 46,
+        "date-death": "May 25, 2020",
+        "description": "George was an African-American man who was born in Fayetteville, North Carolina. He was a father of two daughters. He was killed in the Powderhorn community of Minneapolis, Minnesota."
     },
     {
         "name": "Breonna Taylor"
