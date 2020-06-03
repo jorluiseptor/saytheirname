@@ -1,6 +1,16 @@
 .person{
     word-break: break-all;
+    cursor: pointer;
+    font-size: 3rem;
+    color:grey;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: justify;
 }
 .person:hover{
     color:#fff;
+
+}
+h1#hashtag {
+    color:rgb(165, 165, 165);
 }

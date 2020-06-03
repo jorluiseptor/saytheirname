@@ -1,9 +1,11 @@
 <nav>
-  <span id="hashtag">#saytheirname</span>
 </nav>
+<h1 id="hashtag">#saytheirname</h1>
+
+
 <div id="name-list">
-  <span *ngFor="let person of people" class="person">
-    {{ person.name }}  
+  <span *ngFor="let person of people; index as i; frist as isFirst; last as isLast" class="person" attr.data-index={{i}} (click)="openDialog(person)">
+    {{ person.name }} <span *ngIf="!isLast" class="name-separator">-</span>
   </span>
 </div>
 
